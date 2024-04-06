@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>OpenIV Package Installer</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                /* margin: 0; */
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                background: #1b1d22;
+                background-image: url( assets/ezgif.com-gif-maker.gif );
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+            home {
+                margin: 16px;
+                padding: 16px;
+                display: flex;
+                width: clamp( 450px, 100%, 850px );
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                min-height: 100%;
+                border-radius: 12px;
+                box-shadow: #bba14f 0 0 20px;
+                background: #002429;
+                color: #ccc;
+            }
+            appbar {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 68px;
+                background: #16181c;
+                box-shadow: #0005 0 0 10px;
+                position: sticky;
+                top: 0;
+                left: 0;
+                z-index: 9;
+                color: #bba14f;
+            }
+            appbar h1 { text-align: center;}
+            appbar h2, appbar h3 { width: 40px; height: 100%; padding: 0 16px; }
+            drawer {
+                display: block;
+                visibility: hidden;
+                position: fixed;
+                top: 68px;
+                left: 0;
+                width: 0;
+                height: 100%;
+                background: #002429cc;
+                backdrop-filter: blur( 12px );
+                -webkit-backdrop-filter: blur( 12px );
+                color: #bba14f;
+                overflow: hidden;
+                z-index: 6;
+                transition: .3s ease-in-out;
+                padding: 0 0 0 24px;
+            }
+            .open {
+                visibility: visible;
+                width: 350px;
+            }
+            img {
+                max-width: 100%;
+            }
+            iframe {
+                max-width: 100%;
+            }
+            h1 { color: ; }
+            h2 { color: #bba14f; }
+            a { text-decoration: none; color: #fff; }
+            ol,ul { padding: 0 0 0 24px; }
+        </style>
+    </head>
+    <body>
+        <appbar><h2>=</h2><h1>The Godzilla and Mechagodzilla script mod for GTA 5</h1><h3></h3></appbar>
+        <drawer>
+            <p><a href="index.html">Godzilla guide</a></p>
+            <p><a href="OpenIV Package Installer guide copy.html">OpenIV guide</a></p>
+        </drawer>
+
+        <home>
+
+        <h1>GTA 5 JulioNIB mods setup guide (.OIV files)</h1>
+
+        <p>The Godzilla and Mechagodzilla script mod for GTA 5 <a href="index.html">guide</a></p>
+        <p>This is a general guide showing how to setup OpenIV and how to install .OIV packages of my mods.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_t_5A9xp4IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Step 1 - Setting up OpenIV (one time setup commonly)</h2>
+        <ul>
+            <li>First download OpenIV here and install it</li>
+            <li>Run it and click in the game that you want to mod (GTA 5 in this case)</li>
+            <li>It will ask the game folder, for GTA 5 it's commonly located in:
+                <p>Steam: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V
+                    Rockstar Launcher: C:\Program Files\Rockstar Games\Grand Theft Auto V
+                    Epic: C:\Program Files\Epic Games\GTAV</p>
+            </li>
+            <li>After finishing the setup, click in "Tools" and then in "ASI Manager"</li>
+            <li>In the ASI Manager click to install "ASI Loader" and "OpenIV.ASI"</li>
+            <li>Done, close OpenIV.</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Step 2 - Install the .OIV packages</h2>
+        <ul>
+            <li>*Always check the readme or blog post of the mod, it will tell which packages you should install from the zip.</li>
+            <li>**Some of my mods uses added props, you must install this plugin to have added props working, setup process its simple and its described in the Readme.txt file :)</li>
+            <li>-First thing to do is close any OpenIV that is already open to avoid corrupted files issue. Also close the game :)</li>
+            <li>-Extract all files from the ZIP file (use winzip, winrar or even windows explorer)</li>
+            <li>-Execute OpenIV, choose "Grand Theft Auto V" (Windows) when it asks for the game</li>
+        </ul>
+
+        <br><br>
+
+        <img src="assets/1.jpg" alt="">
+
+        <p>-Click in "Tools" and then click in "Package Installer"</p>
+
+        <br><br>
+
+        <img src="assets/2.jpg" alt="">
+
+        <br><br>
+
+        <p>-Select the .OIV package file you extracted before and click in "Open"</p>
+
+        <br><br>
+
+        <img src="assets/3.jpg" alt="">
+
+        <br><br>
+
+        <p>-Read the text that will appear in the package setup window, you may find important info there</p>
+        <p>-Click in "Install"</p>
+
+        <br><br>
+
+        <img src="assets/4.jpg" alt="">
+
+        <br><br>
+
+        <p>-It will ask the location to install, if "mods" folder option is enabled, click it, otherwise click in "Game folder" option</p>
+
+        <br><br>
+
+        <img src="assets/5.jpg" alt="">
+
+        <br><br>
+
+        <p>-In the next window it asks to Confirm installation, click in Install*</p>
+
+        <br><br>
+
+        <img src="assets/6.jpg" alt="">
+
+        <br><br>
+
+        <p>-Now OpenIV will start the installation process, depending on which files OpenIV will have to copy to mods folder, the process can take some minutes, its very important that you never interrupt this process to avoid corrupting game files</p>
+        <p>-If everything goes well it will show "Installation succeeded", now you can click in Close to finish.</p>
+
+        <br><br>
+
+        <img src="assets/7.jpg" alt="">
+
+        <br><br>
+
+        <h2>Step 3 - Install NIBSHDotNet and NIBMods Menu (one time setup commonly)</h2>
+        <p>To run my mods, you must install NIBSHDotNet plugin and my NIBMods Menu, its very simple, they come in .OIV packages, so, its basically same thing we did to install the script package in previous steps :)</p>
+        <a href="https://www.patreon.com/posts/nibmods-menu-and-22783974">Download NIBSHDotNet+NIBMods menu here</a>
+        <p>Extract all files and install the file "Setup package.oiv" using OpenIV Package Installer</p>
+
+        <br><br>
+
+        <h2>Step 4 - Install ScripthookV (one time setup commonly)</h2>
+        <p>ScripthookV is the base plugin you need to run my mods, this is how you install it:</p>
+        <p>-Download ScripthookV in <a href="http://www.dev-c.com/gtav/scripthookv/">this page</a></p>
+
+        <br><br>
+
+        <img src="assets/8.jpg" alt="">
+
+        <br><br>
+
+        <p>-Extract all the files to a folder</p>
+        <p>-Open the folder "bin" and copy all the files to your GTA 5 folder</p>
+
+        <br><br>
+
+        <img src="assets/9.jpg" alt="">
+
+        <br><br>
+
+        <p>-The GTA 5 folder will depend on your game setup, its commonly at:</p>
+        <p>Steam: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V
+            Rockstar Launcher: C:\Program Files\Rockstar Games\Grand Theft Auto V
+            Epic: C:\Program Files\Epic Games\GTAV</p>
+        <p>-Done</p>
+        <p>This is how your game folder may look with the ScripthookV files installed:</p>
+
+        <br><br>
+
+        <img src="assets/10.jpg" alt="">
+
+        <br><br>
+
+        <p>In game, after loading the game and with the player character on screen, press Ctrl+N to show the NIBMods Menu, then select the mod you installed to see his menu and use the mod. Case the mod doesn't appear in the NIBMods Menu, try reloading the game, if still doesn't appear, make sure you installed the script mod correctly, it should have a .ndll file in GTA 5 Scripts folder, example of Thor script mod file in the Scripts folder:</p>
+
+        <br><br>
+
+        <img src="assets/11.jpg" alt="">
+
+        <br><br>
+
+        <h2>Step 5 - Adding suits</h2>
+        <p>My mods doesn't includes ped models (suits), only in few cases, so, after installing the script that brings the powers you probably want to install a ped model to use the powers, this guide shows how to install peds in a very easy way:</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/96GzYA69GmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </home>
+
+        <script>
+            function print( v ) { console.log( v ) }
+
+            window.addEventListener( "load", () => {
+                var imgs = document.querySelectorAll( "img" );
+                var drawerBtn = document.querySelector( "appbar > h2" );
+                var drawer = document.querySelector( "drawer" );
+
+                imgs.forEach( img => {
+                    img.addEventListener( "mouseover", event => {
+                        img.style.cursor = "pointer";
+                    } );
+                    img.addEventListener( "click", event => {
+                        window.open( img.getAttribute( "src" ), "_blank" );
+                    } );
+                } );
+
+                drawerBtn.addEventListener( "click", event => {
+                    drawer.classList.toggle( "open" );
+                } );
+
+            } );
+        </script>
+    </body>
+</html>
